@@ -1,5 +1,5 @@
 # Portfolio-FirstTry
-#Basic Portfolio - Web Development Project
+## Basic Portfolio - Web Development Project
 ## Description
 
 Welcome to my Basic Portfolio project! This is my first attempt at web development, where I created a simple and elegant portfolio website using HTML and CSS. The goal of this project was to showcase my skills and progress in web development while creating a personal space to introduce myself and display my works.
