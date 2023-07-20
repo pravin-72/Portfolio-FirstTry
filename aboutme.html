@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About me is known who am I</title>
+        <link rel="stylesheet" href="aboutme.css">
+    </head>
+
+    <body>
+            <h1>About Me!</h1>
+           <div class="enter-image">
+               <img src="road.png" alt="error">
+           </div>
+        <div class="forms-tag">
+            <form action="connect.php" method="post">
+                <label for="fname">FirstName :</label>
+                <input type="text" id="fname" placeholder="First Name" name="fname" maxlength="10" required> 
+                <label for="lname" id="Lname">LastName :</label>
+                <input type="text" id="lname" name="lname" placeholder="Last Name" maxlength="3" required> <br> <br>
+                <label for="studid">Register No :</label>
+                <input type="text" id="studid" name="studid" placeholder="Register No" maxlength="10" required> 
+                
+                <label for="uname" id="Uname" >UserName :</label>
+                <input type="text" id="uname" placeholder="UserName" required maxlength="10"> <br> <br>
+                <label for="birthdate">DOB :</label>
+                <input type="date" id="dob" required> 
+                <label for="gender" id="Gen">Gender :</label>
+                <select name="gender" id="#gender" required> <br> <br>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select> <br> <br>
+                <label for="emailid">Email Id :</label>
+                <input type="email" id="emailid" name="emailid" placeholder="Enter the mail id" maxlength="30" required>
+                <label for="emailid1" id="emailid1">Alternate Email Id :</label>
+                <input type="email" id="emailids" name="emailid" placeholder="Enter the alter id" maxlength="30" required> <br><br>
+                
+                <label for="number" id="phone">Phone No :</label>
+                <input type="number" id="number" name="number" maxlength="10" required> 
+                <label for="Organ" id="college">Department :</label>
+                <select name="college" id="college">
+                    <option value="Select the Department">Select the Department</option>
+                    <option value="Computer Science and Engineering">Computer Science and Engineering</option>
+                </select> <br> <br>
+                <label for="Organization" id="organi">Organization :</label>
+                <select name="organization" id="organi">
+                    <option value="Select the organization">Select the Organization</option>
+                    <option value="M. Kumarasamy College of Engineering">M. Kumarasamy College of Engineering.</option>
+                </select>
+                <label for="address"id="address1" >Address1 :</label>
+                <input type="text" name="address" id="address" placeholder="Enter the address1" required> <br><br>
+                <label for="address">Address2 :</label>
+                <input type="text" name="address" id="address" placeholder="Enter the address2" required>
+                <label for="state" id="state1">State :</label>
+                <select name="state" id="state" required> <br> <br>
+                    <option value="Select the state">Select the state</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chattisgarh">Chattisgarh</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttarkhand">Uttarakhand</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="West Bengal">West Bengal</option>
+                </select> <br><br>
+
+                <label for="city" id="city1">City :</label>
+                <select name="city" id="city">
+                    <option value="Select the City">Select the City</option>
+                    <option value="Ariyalur">Ariyalur</option>
+                    <option value="Chengalpattu">Chengalpattu </option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Coimbatore">Coimbatore</option>
+                    <option value="Cuddalore">Cuddalore</option>
+                    <option value="Dharmapuri">Dharmapuri</option>
+                    <option value="Dindigul">Dindigul</option>
+                    <option value="Erode">Erode</option>
+                    <option value="kallakurichi">kallakurichi</option>
+                    <option value="Kanchipuram">Kanchipuram</option>
+                    <option value="Kanyakumari">Kanyakumari</option>
+                    <option value="Karur">Karur</option>
+                    <option value="Krishnagiri">Krishnagiri</option>
+                    <option value="Madurai">Madurai</option>
+                    <option value="Nagapattinam">Nagapattinam</option>
+                    <option value="Namakkal">Namakkal</option>
+                    <option value="Nilgiris">Nilgiris</option>
+                    <option value="Perambalur">Perambalur</option>
+                    <option value="Pudukottai">Pudukottai</option>
+                    <option value="Ramanathapuram">Ramanathapuram</option>
+                    <option value="Ranipet">Ranipet</option>
+                    <option value="Salem">Salem</option>
+                    <option value="Sivaganga">Sivaganga</option>
+                    <option value="Tenkasi">Tenkasi</option>
+                    <option value="Thanjavur">Thanjavur</option>
+                    <option value="Theni">Theni</option>
+                    <option value="Thoothukudi">Thoothukudi</option>
+                    <option value="Tiruchirappalli">Tiruchirappalli</option>
+                    <option value="Tirunelveli">Tirunelveli</option>
+                    <option value="Tirupathur">Tirupathur</option>
+                    <option value="Tiruppur">Tiruppur</option>
+                    <option value="Tiruvallur">Tiruvallur</option>
+                    <option value="Tiruvannamalai">Tiruvannamalai</option>
+                    <option value="Tiruvarur">Tiruvarur</option>
+                    <option value="Vellore">Vellore</option>
+                    <option value="Viluppuram">Viluppuram</option>
+                    <option value="Virudhunagar">Virudhunagar</option>
+                </select> 
+                <label for="country" id="coun">Country :</label>
+                <select name="country" id="coun">
+                    <option value="Select the Country">Select the Country</option>
+                    <option value="India">India</option>
+                </select> <br><br>
+                <label for="zip" id="zipco">Zipcode :</label>
+                <input type="number" name="zip" maxlength="6" required> <br> <br>
+                <div class="btn-button">
+                    <button>SUBMIT</button>
+                </div>
+               
+
+            </form>
+        </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    transition: all 1.5s;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(pen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bigger h1{
+    
+    margin: 0%;
+    padding: 40px;
+    padding-top: 50px;
+    font-size: 150px;
+    font-family:serif;
+    font-weight: 500;
+    transition: margin-right 4s;
+    text-transform: capitalize;
+    overflow: hidden;
+
+}
+.bigger h1:hover{
+    width: 800px;
+    color: cornflowerblue;
+
+}
+.bigger img{
+    width: 600px;
+    height: 400px;
+    float: right;
+    overflow:hidden;
+    padding-right: 50px;
+    border-radius: 50px 50px;
+
+}
+h2{
+    font-size: 50px;
+    font-family: serif;
+    font-style: italic;
+    font-weight: 300;
+}
+.bigger p{
+    font-size: 30px;
+    justify-content: center;
+    padding-left: 30px;
+    line-height: 50px;
+    font-weight: 400;
+}
+.bigger p a{
+
+    text-decoration: none;
+}
