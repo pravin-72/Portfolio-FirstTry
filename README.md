@@ -52,10 +52,6 @@ As this project marks my initial steps in web development, there's room for impr
 
 I welcome contributions and feedback from the community! If you have suggestions for improvements or find any bugs, feel free to create an issue or submit a pull request.
 
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
 ---
 
 Thank you for checking out my Basic Portfolio project! I hope you find it inspiring as I continue my journey in web development. If you have any questions or just want to say hello, don't hesitate to contact me. Happy coding! 😊
