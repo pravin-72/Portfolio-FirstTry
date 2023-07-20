@@ -4,19 +4,14 @@
 
 Welcome to my Basic Portfolio project! This is my first attempt at web development, where I created a simple and elegant portfolio website using HTML and CSS. The goal of this project was to showcase my skills and progress in web development while creating a personal space to introduce myself and display my works.
 
-## Live Demo
-
-Before diving into the code, you can check out the live version of my portfolio here: [Portfolio Live Demo](https://yourportfolio.com)
-
 ## Features
 
-1. **Responsive Design:** The portfolio is designed to adapt gracefully to different screen sizes, ensuring an optimal viewing experience on various devices, including desktops, tablets, and smartphones.
 
-2. **About Me:** A section where I provide a brief introduction of myself, my interests, and my passion for web development.
+1. **About Me:** A section where I provide a brief introduction of myself, my interests, and my passion for web development.
 
-3. **Projects Showcase:** I showcase my web development projects with brief descriptions and links to their respective live demos or GitHub repositories.
+2. **Projects Showcase:** I showcase my web development projects with brief descriptions and links to their respective live demos or GitHub repositories.
 
-4. **Contact Form:** An interactive contact form for visitors to get in touch with me easily.
+3. **Contact Form:** An interactive contact form for visitors to get in touch with me easily.
 
 ## Technologies Used
 
@@ -30,13 +25,13 @@ If you want to explore the code or use it as a reference for your own projects, 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/basic-portfolio.git
+   git clone https://github.com/pravin-72/Portfolio-FirstTry.git
    ```
 
 2. Navigate to the project folder:
 
    ```bash
-   cd basic-portfolio
+   cd Portfolio-FirstTry
    ```
 
 3. Open the `index.html` file in your preferred web browser to view the portfolio.
